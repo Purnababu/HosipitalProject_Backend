@@ -25,5 +25,7 @@ public class EmployeeResult {
 	private String result;
 	private LocalDateTime submittedTime;
 	private int score;
+	
+
 
 }

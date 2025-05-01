@@ -11,4 +11,6 @@ public interface EmployeeResultService {
 	List<EmployeeResult> getAllEmployeeResults();
 
 	EmployeeResult getEmployeeResultById(Long id);
+
+	String checkIfAlreadySubmitted(String employeeEmail, String courseName);
 }
